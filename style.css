@@ -1,0 +1,110 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62%;
+}
+body{
+    /* border:2px solid black; */
+    width:100%;
+    height: 100vh;
+    margin: auto;
+    font-family: 'Karma', serif;
+    position: relative;
+    font-weight: 600;
+    /* color:white; */
+}
+body::before{
+    content: "";
+    background: url('bg3.jfif') no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    /* height: 577px; */
+    height: 100vh;
+    opacity: 0.6;
+    z-index: -1;
+}
+header{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 18vh;
+    text-align: center;
+}
+main{
+    margin-top:4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+/* style elements */
+header h1{
+    font-size: 4.4rem;
+}
+header .between{
+    font-size: 2.5rem;
+   
+}
+header .number{
+    font-size: 4rem;
+    border: 2px solid black;
+    width:60px;
+    margin:10px auto;
+    position: relative;
+}
+.right{
+    font-size: 2.5rem;
+    margin-top:4rem;
+}
+.left input{
+    margin: 2rem ;
+    height:6rem;
+    font-size: 2rem;
+    text-align: center;
+    outline: none;
+    /* border:2px solid black; */
+    border: none;
+}
+.left button{
+    width:30%;
+    margin: auto;
+    font-size: 2rem;
+    padding: 10px;
+}
+.reset button{
+    font-size: 2rem;
+    margin:0 0 2rem 2rem;
+    padding:10px;
+}
+.right .message{
+    margin: 4rem 0px;
+}
+/* .number::before{
+    content: "";
+    height: 2px;
+    width:100px;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left:0;
+    display: block;
+} */
+
+.btn{
+    border:none;
+    background-color: #211919;;
+    color:white;
+
+}
